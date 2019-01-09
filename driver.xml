@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="我的测试" verbose="1" parallel="classes" thread-count="5" >
+    <parameter name="transnovashost"  value="http://192.168.0.103:2080"/>
+    <parameter name="transnovasdriverid"  value="1000045"/>
+    <parameter name="transnovascookie"  value="JSESSIONID=E827D9B1544261A217A9A2CB4776364F"/>
+    <parameter name="transnovasvehicleId"  value="34633683180851253"/>
+    <test name="百度词典查询" >
+        <classes>
+            <class name="com.transnova.demo.testng.baidutest" />
+        </classes>
+    </test>
+
+</suite>

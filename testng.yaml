@@ -1,0 +1,7 @@
+name: 我的测试
+parallel: classes
+threadCount: 5
+tests:
+  -name: test1
+  classes:
+    class: com.transnova.demo.testng.baidutest
